@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:seagreen;
+   
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
+.box{
+    text-align: center;
+    padding: 30px;
+    background-color:#3A4452;
+    display: inline-block;
+    margin-left: 35%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border-radius: 10px;
+
+
+}
+.box .box-container input{
+    border-radius: 10px;
+    font-size: 30px;
+    outline: 0;
+    border: 0;
+   height: 60px;
+   width :70px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+   background: transparent;
+    color: #fff;
+   margin: 10px;
+   cursor:pointer;
+   padding: 10px;
+
+}
+
+    
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+   
+   
+}
+.box form .display  input{
+text-align: right;
+box-shadow: none;
+flex: 1;
+}
+
+.box form  .operator{
+    background-color: seagreen;
+}
+ 
+
+@media (max-width:720px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box{
+  
+    padding: 1px;
+    background-color:#3A4452;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border-radius: 10px;
+    height: 20%;
+    width: 50%;
+    margin-right: 20px;
+    padding-right: 80px;
+    margin-left: 40px;
+    
+    }
+    
+    
+.box .box-container input{
+    border-radius: 10px;
+    font-size: small;
+    outline: 0;
+    border: 0;
+   height: 20px;
+   width :30px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+   background: transparent;
+    color: #fff;
+   cursor:pointer;
+   padding: 2px;
+   margin: 10px;
+
+}
+
+.box-container{
+    height: 55%;
+    width: 150%;
+    text-align: center;
+  
+}
+   
+form .display {
+    display: flex;
+    justify-content: flex-end;
+   
+}}
